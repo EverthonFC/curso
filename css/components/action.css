@@ -1,20 +1,3 @@
-html{
-    min-width: 960px;
-    max-width: 1440px;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    background-color: #EB9D1E;
-    border-bottom: 10px solid black;
-    padding: 10px 20px;
-}
-
-nav{
-    text-align: right;
-}
-
 a {        
     display: inline-flex;
     align-items: center;
@@ -42,9 +25,3 @@ a::before {
     height: 10px;
     margin-right: 10px;
 }
-main {
-    position: relative;
-    text-align: center;
-    justify-content: space-between;
-}
-
