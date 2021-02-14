@@ -1,0 +1,16 @@
+.card-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 280px;
+    background-color:darkolivegreen;
+    box-shadow: 5px 5px 0px  floralwhite;
+    transition: transform 200ms linear;
+
+}
+
+.card-project:hover {
+    transform: scale(1.09);
+
+}

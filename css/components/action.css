@@ -1,4 +1,4 @@
-a {        
+.action {        
     display: inline-flex;
     align-items: center;
     color: #fff;
@@ -11,14 +11,14 @@ a {
     
 }
 
-a:hover {
+.action :hover {
     color: #A3CCA6; 
     transform: scale(1.1); 
       
 
 }
 
-a::before {
+.action::before {
     content: " ";
     background-color: #BFEDC1;
     width: 10px;
